@@ -2,6 +2,7 @@
 
 
 ## Checklist for creating PR
+- every PR needs to have an issue that is resolving, sometimes PR resolves multiple issues
 - move issue that this PR is resolving in In Progress column on global board
 - how to handle CI failure (with skip labels)
 - draft PR (try to do it as soon as possible, don't wait for everything to be done so that you don't loose work)
