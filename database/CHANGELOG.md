@@ -4,8 +4,12 @@
 ## Version 11 (https://github.com/brave/brave-core/pull/4048)
 #### Table `contribution_info`
 ```diff
-+ contribtion_id, step, retry, amount
-- probi, month, year
++ contribtion_id
++ step
++ retry, amount
+- probi
+- month
+- year
 ! date -> created_at
 ```
 
@@ -37,32 +41,34 @@
 ## Version 15 (https://github.com/brave/brave-core/pull/4354)
 #### Table `activity_info`
 ```diff
--fk_activity_info_publisher_id
+- fk_activity_info_publisher_id
 ```
 
 #### Table `contribution_info_publishers`
 ```diff
--fk_contribution_info_publishers_contribution_id, fk_contribution_info_publishers_publisher_id
+- fk_contribution_info_publishers_contribution_id
+- fk_contribution_info_publishers_publisher_id
 ```
 
 #### Table `contribution_queue_publishers`
 ```diff
--fk_contribution_queue_publishers_publisher_key, fk_contribution_queue_publishers_id
+- fk_contribution_queue_publishers_publisher_key
+- fk_contribution_queue_publishers_id
 ```
 
 #### Table `media_publisher_info`
 ```diff
--fk_media_publisher_info_publisher_id
+- fk_media_publisher_info_publisher_id
 ```
 
 #### Table `pending_contribution`
 ```diff
--fk_pending_contribution_publisher_id
+- fk_pending_contribution_publisher_id
 ```
 
 #### Table `promotion_creds`
 ```diff
--fk_promotion_creds_promotion_id
+- fk_promotion_creds_promotion_id
 ```
 
 #### Table `recurring_donation`
@@ -77,17 +83,17 @@
 
 #### Table `server_publisher_banner`
 ```diff
--fk_server_publisher_banner_publisher_key
+- fk_server_publisher_banner_publisher_key
 ```
 
 #### Table `server_publisher_links`
 ```diff
--fk_server_publisher_links_publisher_key
+- fk_server_publisher_links_publisher_key
 ```
 
 #### Table `unblinded_tokens`
 ```diff
--fk_unblinded_tokens_promotion_id
+- fk_unblinded_tokens_promotion_id
 ```
 
 ## Version 16 (https://github.com/brave/brave-core/pull/4834)
