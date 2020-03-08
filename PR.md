@@ -17,7 +17,7 @@
 - you are responsible for PR to be reviewed
 - do not add PR to any projects
 - always check CI (yes it can take multiple tries), if CI failed on not related things add a note to the PR
-- add `feature/rewards` label
+- only add `feature/rewards` label to the PR (except of skip labels of course), everything else should be labeled in the issue
 
 ## Checklist for reviewing PR
 - it follows our coding standard and chromium ones (https://google.github.io/styleguide/cppguide.html)
