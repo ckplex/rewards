@@ -101,3 +101,9 @@
 ```diff
 # Fixed claimed_at value, date formates were different per records
 ```
+
+## Version 17 (https://github.com/brave/brave-core/pull/4876)
+#### Table `contribution_info`
+```diff
++ processor
+```
