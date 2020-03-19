@@ -107,3 +107,18 @@
 ```diff
 + processor
 ```
+
+## Version 18 (https://github.com/brave/brave-core/pull/4960)
+#### Table `unblinded_tokens`
+```diff
++ creds_id
++ expires_at
+- promotion_id
+```
+
+#### Table `promotion`
+```diff
++ claim_id
+```
+
+#### New table `creds_batch`
