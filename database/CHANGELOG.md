@@ -122,3 +122,12 @@
 ```
 
 #### New table `creds_batch`
+
+
+## Version 19 (https://github.com/brave/brave-core/pull/4869)
+
+#### New table `sku_order`
+
+#### New table `sku_order_items`
+
+#### New table `sku_transaction`
